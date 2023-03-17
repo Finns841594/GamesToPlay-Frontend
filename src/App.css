@@ -1,0 +1,97 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.App {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #3A3A3A;
+  box-shadow: 0 0 10px 10px #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header_text {
+  text-shadow: #1e1e1e 1px 0 10px;
+}
+
+.header_description {
+  padding: 30px;
+  border-top: 1px solid  rgb(184, 184, 184);
+  width: 80%;
+  align-self: center;
+}
+
+.yearcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3A3A3A;
+  box-shadow: 0 0 10px 10px #1e1e1e;
+  margin: 30px 0;
+  padding-bottom: 50px;
+}
+
+.yearcard_title {
+  text-align: center;
+  width: 87%;
+  margin-top: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.gamelist {
+  display: flex;
+  flex-flow: row wrap;
+  justify-items: start;
+  list-style: none;
+}
+
+.img:hover {
+  box-shadow: 0 0 10px 10px #107C10;
+}
+.gamecard {
+  margin: 20px;
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.squareImg {
+  width:200px;
+  height:200px;
+  object-fit: cover;
+}
+
+.gameImg-goty {
+  width:700px;
+  margin-bottom: 20px;
+}
+
+.gameImg {
+}
+
+.gamecard_description {
+  margin-top: 2px;
+  height: 20px;
+  text-align: start;
+}
+
+.--played {
+  opacity: 0.4;
+}
+
+.playmark {
+  margin-top: -130px;
+  text-align: center;
+}
